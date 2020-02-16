@@ -340,20 +340,20 @@
 				<div class="row bg-color tGB">
 					<div class="col-lg-4 mt-1">
 						<div class="immageBox">
-							<img loading="lazy" src="images/t1.jpg" alt="" width="1600" class="img-fluid">
+							<img loading="lazy" src="images/t3.jpg" alt="" width="1600" class="img-fluid">
 							<div class="textBox pt-5">
-								<p class="text-center bg-color"><em><strong>FRANKLIN OWINO<br>
-											Praise &amp; Worship Director</strong></em></p>
+								<p class="text-center bg-color"><em><strong>FRANKLINE OWINO<br>
+											Praise &amp; Worship Coordinator</strong></em></p>
 								<h1 class="text-center"><strong>PRAISE AND WORSHIP</strong></h1>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 mt-1">
 						<div class="immageBox">
-							<img loading="lazy" src="images/t1.jpg" alt="" width="1600" class="img-fluid ">
+							<img loading="lazy" src="images/t2.jpg" alt="" width="1600" class="img-fluid ">
 							<div class="textBox pt-5 ">
 								<p class="text-center "><strong>ALICE MUNENE<br>
-										bible study co-ordinator</strong></p>
+										Bible Study Coordinator</strong></p>
 								<h1 class="text-center "><strong>BIBLE STUDY</strong></h1>
 							</div>
 						</div>
@@ -363,7 +363,7 @@
 							<img loading="lazy" src="images/t1.jpg" alt="" width="1600" class="img-fluid">
 							<div class="textBox pt-5">
 								<p class="text-center"><em><strong>WILLIS OMUYA<br>
-											Music co-ordinator</strong></em></p>
+											Music Coordinator</strong></em></p>
 								<h1 class="text-center"><strong>MUSIC</strong></h1>
 							</div>
 						</div>

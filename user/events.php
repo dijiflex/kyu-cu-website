@@ -47,10 +47,7 @@ if ($_SESSION['user_type'] === "normal") {
                 </div>
             </div>
             <div class="col-lg-6">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus animi architecto doloribus veniam
-                ipsam saepe eum labore quaerat modi quos, est, atque alias nisi recusandae porro rem reiciendis
-                consectetur vel.
-
+            To be the source of true light shinning in the University and to the entire globe for God's Glory.
             </div>
 
         </div>
