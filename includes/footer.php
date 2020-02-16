@@ -117,6 +117,6 @@
         </div>
         <div class="container-fluid" id="last-row">
 
-            <p id="last-row-para" class="text-center mb-0 mx-auto"> &copy; Kirinyaga University Christian Union 2020</p>
+            <p id="last-row-para" class="text-center mb-0 mx-auto"> &copy; Kirinyaga University Christian Union <?php echo date('M Y') ; ?></p>
         </div>
     </footer>
