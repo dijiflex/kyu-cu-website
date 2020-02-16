@@ -65,6 +65,8 @@ class INDEX {
                 `; 
 
                 }
+                
+                
                 $('#porpularPost').html(output)
                 $('.readmore').readmore({ speed: 75,collapsedHeight: 80, lessLink: '',moreLink: '' });
                 
@@ -78,8 +80,30 @@ class INDEX {
             }
         })
     }
+   checklogin() {
+        $.ajax({
+            url: "user/includes/checklogin.inc.php",
+            method: "POST",
+            dataType: "JSON",
+            success: function (data) {         
+               if (data == true) {
+                 return data
+                   console.log("it is very true");
+               } else if(data == false){
+                    $('#login-request').modal('show');
+                    return false
+               }else{
+                   console.log('something is wrong');
+               }
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        })
+    }
 
 }
 
 const index = new INDEX;
 index.porpularpost();
+index.checklogin();

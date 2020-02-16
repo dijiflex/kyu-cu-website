@@ -379,42 +379,8 @@
 				<div class="row">
 					<h3 class="mx-auto">Popular Posts</h3>
 				</div>
-				<div id="popularPost" class="w3ls p-0 row ">
-					<!-- <div class="col-md-6 w3ls-left wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".2s">
-						<div class="tc-ch">
-							<div class="tch-img">
-								<a href="article.php">
-									<img loading="lazy" src="images/m4.jpg" class="img-responsive" alt=""></a>
-							</div>
-
-							<h3><a href="article.php">Lorem Ipsum is simply</a></h3>
-
-							<h6>BY <a href="article.php">FELIX OMUOK </a>JULY 10 2016.</h6>
-							<div class="d-flex">
-								<div class="mx-3 comment"><span> <i class="far fa-comment-alt"></i> </span><span
-										id="coment_count">4</span> </div>
-								<div class="mx-3"><span> <i
-											id="<?php echo $urlID ?>"
-											onclick="react(this,<?php echo $urlID ?>)"
-											class="fas fa-thumbs-up"></i> <span id="count">4</span> </span> </div>
-								<span id="loginfirst" class=""></span>
-							</div>
-							<p>Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna
-								aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-							<div class="bht1">
-								<a href="article.php">Read More</a>
-							</div>
-							<div class="soci">
-								<ul>
-
-									<li class=""><a class="" href="#"><i class="fab fa-whatsapp-square fa-2x"></i></a>
-									</li>
-
-								</ul>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div> -->
+				<div id="porpularPost" class="w3ls p-0 row ">
+				
 					
 					<div class="clearfix"></div>
 				</div>
@@ -503,6 +469,24 @@ inner join user on user_id = leaders_fk_user_id;";
 			}
 		})
 	</script>
+
+<div class="modal fade" id="login-request" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Welcome</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	  <a href="user/login.php" type="button" class="btn btn-secondary" >Log in</a>
+        <a href="user/signup.php" class="btn btn-primary">Register</a>
+      </div>
+     
+    </div>
+  </div>
+</div>
 </body>
 
 </html>

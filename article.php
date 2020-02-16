@@ -82,12 +82,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 $artOBJ = new  ARTICLE();
                                 $article = $artOBJ->getArtSpecificWhere($urlID);
                                 if ($article ==  false) {
-                                
                                     echo ' <script>  
                                     window.location.href = "blog.php";
                                     </script>
                                     ';
-                                    
                                 }
                                 $txt = 'Hi, Check out my latest Article on Kirinyaga University CU Website https://kyucu.co.ke/article.php?id='. $article['article_id'];
                                 $txt = urlencode($txt);
@@ -251,9 +249,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script src="js/app/article.js"></script>
 
     
-    <script>
-        
-    </script>
+    <div class="modal fade" id="login-request" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Welcome</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	  <a href="user/login.php" type="button" class="btn btn-secondary" >Log in</a>
+        <a href="user/signup.php" class="btn btn-primary">Register</a>
+      </div>
+     
+    </div>
+  </div>
+</div>
 
 </body>
 

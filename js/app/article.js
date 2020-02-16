@@ -159,12 +159,11 @@ function checklogin() {
            if (data == true) {
              return data
                console.log("it is very true");
-          
            } else if(data == false){
+            $('#login-request').modal('show');
                 return false
            }else{
                console.log('something is wrong');
-               
            }
         },
         error: function (error) {
@@ -217,6 +216,7 @@ function react (item,id) {
 
     
 }
+checklogin();
 
 
 
